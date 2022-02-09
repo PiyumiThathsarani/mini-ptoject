@@ -6,7 +6,8 @@ class Login extends React.Component {
             <label>Username</label>
             <input type='text'/>
             <label>Password</label>
-            <input type='password'/>            
+            <input type='password'/> 
+            <button onClick="submit" href="#">Login</button>         
         </div>;
     }
 }
