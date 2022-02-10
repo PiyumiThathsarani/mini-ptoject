@@ -1,7 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 import {Link} from 'react-router-dom';
 
 
@@ -18,30 +15,7 @@ function Login(){
         </Link>
                          
     </div>;
-   
-    
-=======
-=======
->>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
-=======
->>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 
-class Login extends React.Component {
-    render() { 
-        return <div>
-            <label>Username</label>
-            <input type='text'/>
-            <label>Password</label>
-            <input type='password'/>            
-        </div>;
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
-=======
->>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
-=======
->>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 }
  
 export default Login;
