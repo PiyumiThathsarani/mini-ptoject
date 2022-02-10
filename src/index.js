@@ -12,6 +12,8 @@ import Profile from './Component/Profile';
 
 
 
+
+
 ReactDOM.render(
 <<<<<<< HEAD
   
@@ -30,6 +32,9 @@ ReactDOM.render(
     
   </React.StrictMode>,
   
+<<<<<<< HEAD
+>>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
+=======
 >>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
   document.getElementById('root')
 );
