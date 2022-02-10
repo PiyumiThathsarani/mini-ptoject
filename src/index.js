@@ -5,8 +5,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './Component/Login';
-import Profile from './Component/Profile';
+import Login from './Component/Pages/Login';
+import Profile from './Component/Pages/Profile';
+import Register from './Component/Pages/Register';
 
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/Login" element={<Login/>} />
         <Route path="/Profile" element={<Profile/>} />
+        <Route path="/Register" element={<Register/>} />
       </Routes>
     </BrowserRouter>,
     

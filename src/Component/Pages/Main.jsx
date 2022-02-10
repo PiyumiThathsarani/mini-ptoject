@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Main(){
     
-    return <div>
+    return <div className="main">
         <h1>Welcome</h1> 
         <hr/>
     
@@ -13,8 +13,11 @@ function Main(){
         <button onClick="submit">Login</button>
         </Link>
         &nbsp; &nbsp;
-        <button onClick="register">Register</button>
-           
+        <Link to="/Register">
+        <button onClick="submit">Register</button>
+        </Link>
+        
+         
     </div>;
 
 }
