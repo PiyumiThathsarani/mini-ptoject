@@ -1,6 +1,7 @@
 import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {Link} from 'react-router-dom';
 
 
@@ -22,6 +23,8 @@ function Login(){
 =======
 =======
 >>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
+=======
+>>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 
 class Login extends React.Component {
     render() { 
@@ -33,6 +36,9 @@ class Login extends React.Component {
         </div>;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
+=======
 >>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 =======
 >>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2

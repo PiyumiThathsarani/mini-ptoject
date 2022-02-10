@@ -1,6 +1,7 @@
 import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Main from './Component/Main';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       
   </div>;  
 =======
+=======
+>>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 =======
 >>>>>>> f40dc32915c43325b2da16e75259bc0b26ef03c2
 import Start from './Component/Start';
