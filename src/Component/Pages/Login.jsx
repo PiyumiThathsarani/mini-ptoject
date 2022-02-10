@@ -7,10 +7,11 @@ function Login(){
     
     
     return <div className="login">
-        <label>Username</label>
-        <input type='text'/>
-        <label>Password</label>
-        <input type='password'/> 
+        <h1>Login</h1>
+        <label>Username : </label>
+        <input type='text'/><br/>
+        <label>Password : </label>
+        <input type='password'/><br/> 
             
         <Link to="/Profile">
         <button onClick="submit">Login</button>

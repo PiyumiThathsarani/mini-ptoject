@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from './Component/Pages/Login';
 import Profile from './Component/Pages/Profile';
 import Register from './Component/Pages/Register';
+import Application from './Component/Pages/Application';
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path="/Login" element={<Login/>} />
         <Route path="/Profile" element={<Profile/>} />
         <Route path="/Register" element={<Register/>} />
+        <Route path="/Application" element={<Application/>} />
 
         <Route path="*" element={
         <main style={{ padding: "1rem" }}>
