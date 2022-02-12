@@ -2,9 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-function Profile(){
+function Home(){
     
-    return <div className="user_profile">
+    return <div className="home" style={{textAlign:'center'}}>
+            
+            
+            
             <h1>Welcome user!</h1>
             <h2>Financial Support
             Requesting Service</h2>
@@ -12,9 +15,9 @@ function Profile(){
             <h2>Villagers</h2>
 
             <Link to="/Application">
-            <button onSubmit="request">Request Now</button>
+            <button onSubmit="request" >Request Now</button>
             </Link>
           
     </div>;
 }
-export default Profile;
+export default Home;

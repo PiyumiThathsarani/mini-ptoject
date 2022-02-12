@@ -5,8 +5,8 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './Component/Pages/Login';
-import Profile from './Component/Pages/Profile';
+import LoginBackground from './Component/Pages/LoginBackground';
+import Navbar from './Component/Profile/Navbar';
 import Register from './Component/Pages/Register';
 import Application from './Component/Pages/Application';
 
@@ -16,8 +16,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/Login" element={<Login/>} />
-        <Route path="/Profile" element={<Profile/>} />
+        <Route path="/LoginBackground" element={<LoginBackground/>} />
+        <Route path="/Navbar" element={<Navbar/>} />
         <Route path="/Register" element={<Register/>} />
         <Route path="/Application" element={<Application/>} />
 

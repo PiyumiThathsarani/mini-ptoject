@@ -9,7 +9,7 @@ function Main(){
         <hr/>
     
         <h2>Villagers' Financial Support <br/>Claiming Management System</h2>
-        <Link to="/Login">
+        <Link to="/LoginBackground">
         <button onClick="submit">Login</button>
         </Link>
         &nbsp; &nbsp;

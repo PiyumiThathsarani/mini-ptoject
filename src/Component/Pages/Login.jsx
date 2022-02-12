@@ -1,26 +1,31 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './Style.css';
 
 
 
 function Login(){
     
     
-    return <div className="login">
+    return(
+     
+    <div className=" container transbox login text-dark" style={{ justifyContent: 'center'}}>
+        
         <h1>Login</h1>
         <label>Username : </label>
         <input type='text'/><br/>
         <label>Password : </label>
         <input type='password'/><br/> 
             
-        <Link to="/Profile">
+        <Link to="/Navbar">
         <button onClick="submit">Login</button>
-        </Link>
-        
-        
-                         
-    </div>;
-
+        </Link>                    
+    </div>
+    
+    
+    
+    )
+    
 }
  
 export default Login;
