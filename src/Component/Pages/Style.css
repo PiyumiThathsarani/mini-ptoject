@@ -1,9 +1,8 @@
 .login {
     
-    
     font-family:Georgia;
     font-weight: bolder;  
-    color: black;
+    
     text-align:center;
     
 }
@@ -11,11 +10,13 @@
 .transbox{
   
   background-color: rgb(228, 227, 245);
-  border:1px solid rgb(255, 255, 255);
+  border:5px solid rgb(17, 14, 14);
+  
   object-position:center;
   align-content: center;
-  opacity: 0.7;
-  width: 500px;
+  opacity: 0.65;
+  width: 600px;
+  height: 600px;
   padding: 0px 30px 30px 30px;
   
 }
@@ -23,15 +24,17 @@
     text-align: center;
     font-weight: bolder;
     color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
  
 }
 .transbox label {
     margin: 2%;
-    color:rgb(0, 0, 0);
+    color:rgb(29, 5, 5);
     padding-top: 0%;
     font-weight:bolder;
     text-align: center;
-    font-size: x-large;
+    font-size:x-large;
     white-space: unset;
     margin-top: 30px;
 }
@@ -41,9 +44,10 @@
     font-size: x-large;
     margin-top: 40px;
     border-radius: 5px;
-    background-color: rgb(37, 36, 49);
+    background-color: rgb(63, 11, 11);
     color: rgb(255, 255, 255);
-    width: 100px;
+    width: 150px;
+    
 }
 .background{
     background-repeat: no-repeat;

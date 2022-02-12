@@ -9,7 +9,7 @@ function Login(){
     
     return(
      
-    <div className=" container transbox login text-dark" style={{ justifyContent: 'center'}}>
+    <div className=" container  transbox login text-dark position-absolute top-50 start-50 translate-middle" style={{ justifyContent: 'center'}}>
         
         <h1>Login</h1>
         <label>Username : </label>

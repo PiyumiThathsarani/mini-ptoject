@@ -1,0 +1,71 @@
+.btn{
+    background-color: rgb(4, 50, 65);
+    color:beige;
+    width: 150px;
+}
+
+.image{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom:10px;
+    height: auto;
+    opacity: 0.75;
+    
+}
+
+.funditem{
+    
+    border-style:solid;
+    border-radius: 15px;
+    background-color:rgb(159, 174, 184);
+    border-color: rgb(19, 63, 88);
+      
+}
+.col{
+    height: auto;
+    
+}
+.card-title{
+    color:rgb(168, 108, 64);
+    font-weight:bolder;
+    font-size: x-large;
+}
+.fundName{
+    text-align: center;
+    font-weight: 700;
+
+}
+.description{
+    text-align: center;
+    position:inherit;
+}
+.fundlist{
+    background-color: rgb(205, 221, 230);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+    
+}
+.list{
+    color:rgb(3, 23, 32);
+    font-weight: bolder;
+}
+.home{
+    background-color:rgb(127, 168, 179);
+    
+}
+.sidenav{
+    background-color: rgb(2, 36, 59);
+    font-size: larger;
+    
+    
+}
+.navbtn{
+    color: antiquewhite;
+    padding-left: 20px;
+    width: 200px;
+}
+.userpage{
+    background-color: rgb(253, 253, 253);
+    
+}
