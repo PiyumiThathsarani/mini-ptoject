@@ -1,6 +1,6 @@
 .btn{
     background-color: rgb(4, 50, 65);
-    color:beige;
+    color:rgb(255, 255, 255);
     width: 150px;
    
 }
@@ -40,7 +40,7 @@
     background-color: rgb(205, 221, 230);
     padding-bottom: 10px;
     padding-top: 20px;
-   
+    
 }
 .list{
     color:rgb(3, 23, 32);
@@ -48,30 +48,41 @@
    
 }
 .home{
-    background-color:rgb(127, 168, 179);
-
+    background-color:rgb(140, 195, 231);
+    
+}
+.availablelist{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    
+    
 }
 .sidenav{
-    background-color: rgb(2, 36, 59);
+    background-color: rgb(219, 225, 230);
     font-size: larger;
-    
-    
+    background-size: cover;
+    height: auto;
+    opacity:0.5;
+    text-decoration: solid black;
 }
 .navbtn{
-    color: antiquewhite;
-    
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     
 }
 .userpage{
-    background-color: rgb(15, 9, 29);
     
+    background-image: url("./HomeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navbar{
     background-color: lightblue;
     margin-bottom: 5px;
     padding-right: 20px;
     margin-right: 12px;
-    
+    opacity: 0.8;
+    font-weight: bold;
 }
 .nav-item a{
     color: black;

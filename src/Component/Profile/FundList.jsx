@@ -52,7 +52,7 @@ function FundList() {
     return (
         <div className="fundlist container mt-5">
         <React.Fragment>
-            <h1 className="list mb-4" style={{textAlign:'center'}}>Available Fund List</h1>
+            <h1 className="list mb-4" style={{textAlign:'center'}}>Available Funds</h1>
             <ul>
                 {fundListComponent()}
                 
