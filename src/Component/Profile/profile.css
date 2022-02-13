@@ -2,6 +2,7 @@
     background-color: rgb(4, 50, 65);
     color:beige;
     width: 150px;
+   
 }
 
 .image{
@@ -22,14 +23,10 @@
       
 }
 .col{
-    height: auto;
-    
+
+    height: auto;  
 }
-.card-title{
-    color:rgb(168, 108, 64);
-    font-weight:bolder;
-    font-size: x-large;
-}
+
 .fundName{
     text-align: center;
     font-weight: 700;
@@ -43,16 +40,16 @@
     background-color: rgb(205, 221, 230);
     padding-bottom: 10px;
     padding-top: 20px;
-    
-    
+   
 }
 .list{
     color:rgb(3, 23, 32);
     font-weight: bolder;
+   
 }
 .home{
     background-color:rgb(127, 168, 179);
-    
+
 }
 .sidenav{
     background-color: rgb(2, 36, 59);
@@ -62,10 +59,21 @@
 }
 .navbtn{
     color: antiquewhite;
-    padding-left: 20px;
-    width: 200px;
+    
+    
 }
 .userpage{
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(15, 9, 29);
+    
+}
+.navbar{
+    background-color: lightblue;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    margin-right: 12px;
+    
+}
+.nav-item a{
+    color: black;
     
 }
