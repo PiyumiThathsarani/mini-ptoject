@@ -1,5 +1,6 @@
-function Column (){
-const Column =[
+
+
+export const COLUMN =[
     {
         Header:"Id",
         accessor:"id"
@@ -17,13 +18,13 @@ const Column =[
         accessor:"email"
     },
     {
-        Header:"Province",
-        accessor:"province"
+        Header:"City",
+        accessor:"city"
     },
     {
         Header:"Phone",
         accessor:"phone"
     }
 ]
-}
-export default Column;
+
+

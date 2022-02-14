@@ -1,12 +1,12 @@
 import React,{useMemo} from 'react'
 import {useTable} from 'react-table';
 import MOCK_DATA from './MOCK_DATA.json';
-import {Column} from './Column';
-import './Table.css'
+import {COLUMN} from './Column';
+import './Table.css';
 
-const BasicTable = () => {
+export const BasicTable = () => {
     
-    const columns=useMemo(()=>Column,[])
+    const columns=useMemo(()=>COLUMN,[])
     const data=useMemo(()=>MOCK_DATA,[])
 
     const tableInstance = useTable({
@@ -22,16 +22,16 @@ const BasicTable = () => {
         prepareRow,
     
     } = tableInstance
-
+    
     return (
         <table {...getTableProps()}>
             <thead>
                 {
-                    headerGroups.map(headerGroup =>(
+                    headerGroups.map((headerGroup) =>(
                     <tr {...headerGroup.getHeaderGroupProps()}>
                         {
-                            headerGroup.headers.map((Column)=>(
-                                <th {...Column.getHeaderProps()}>{Column.render('Header')}</th>
+                            headerGroup.headers.map((column)=>(
+                                <th {...column.getHeaderProps()}>{column.render('Header')}</th>
                             ))
                         }
                         
@@ -42,14 +42,14 @@ const BasicTable = () => {
             </thead>
             <tbody {...getTableBodyProps()}>
                 {
-                    rows.map(row => {
+                    rows.map((row) => {
                         prepareRow(row)
                         return(
                             <tr {...row.getRowProps()}>
                                 {
                                     row.cells.map((cell)=>{
                                         return(
-                                            <td {...cell.getCellProps()}>{cell.render('cell')}</td>
+                                            <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                                         )
                                     })
                                 }
@@ -61,7 +61,9 @@ const BasicTable = () => {
                 
             </tbody> 
         </table>
+    
     )
+    
 }
 
-export default BasicTable;
+
