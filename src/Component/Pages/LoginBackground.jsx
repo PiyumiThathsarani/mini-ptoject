@@ -1,11 +1,11 @@
 import React from 'react'
 import './Style.css';
-import background from './images.jpg';
+import Image from './Image.jpg';
 import Login from './Login';
 
 function LoginBackground() {
     return (
-        <div className="background" style={{backgroundImage:`URL(${background})`}}>
+        <div className="background" style={{backgroundImage:`URL(${Image})`}}>
             <Login/>
         </div>
     )

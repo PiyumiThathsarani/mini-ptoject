@@ -9,15 +9,16 @@
 
 .transbox{
   
-  background-color: rgb(228, 227, 245);
-  border:5px solid rgb(17, 14, 14);
+  background-color: rgb(197, 233, 240);
+  /*border:5px solid rgb(17, 14, 14);*/
   
   object-position:center;
   align-content: center;
-  opacity: 0.65;
+  opacity: 0.6;
   width: 600px;
   height: 600px;
   padding: 0px 30px 30px 30px;
+  font-style: italic;
   
 }
 .transbox h1{
