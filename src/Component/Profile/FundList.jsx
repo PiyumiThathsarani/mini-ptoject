@@ -1,6 +1,7 @@
 import React from 'react'
 import FundItem from './FundItem'
 import './profile.css';
+import Image from './covid.jpg';
 
 function FundList() {
     
@@ -11,7 +12,7 @@ function FundList() {
             Amount:"Rs.5000.00"
         },
         description:"The Covid-19 Fund which is available for low income people who caused by the Corona Pandemic",
-        picture:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.euro.who.int%2Fen%2Fhealth-topics%2Fhealth-emergencies%2Fcoronavirus-covid-19&psig=AOvVaw3bF4qo_15VjmjVM9xo7rkY&ust=1644753066087000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjD5vCM-vUCFQAAAAAdAAAAABAJ",
+        picture: "covid.jpg",
     },
     {
         id:"2",

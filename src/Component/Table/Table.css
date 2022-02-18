@@ -1,7 +1,9 @@
 table {
     font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+    font-weight: 550;
+    border-collapse:collapse;
+    width:100%;
+    
   }
   
   table td, table th {
@@ -17,6 +19,6 @@ table {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #04AA6D;
+    background-color: #044786;
     color: white;
   }

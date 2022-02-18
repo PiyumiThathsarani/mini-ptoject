@@ -3,7 +3,8 @@ import Home from './Home';
 import Application from '../Pages/Application';
 import { NavLink } from 'react-router-dom';
 import Header from './Header';
-import {BasicTable} from '../Table/BasicTable';
+import Table from '../Table/Table';
+import Dashboard from '../Pages/Dashboard';
 
 
 function Navbar() {
@@ -23,8 +24,8 @@ function Navbar() {
         <div className="tab-content" id="nav-tabContent">
             <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><Home/></div>
             <div className="tab-pane fade" id="nav-applications" role="tabpanel" aria-labelledby="nav-applications-tab"><Application/></div>
-            <div className="tab-pane fade" id="nav-table" role="tabpanel" aria-labelledby="nav-table-tab"><BasicTable/></div>
-            <div className="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">...</div>
+            <div className="tab-pane fade" id="nav-table" role="tabpanel" aria-labelledby="nav-table-tab"><Table/></div>
+            <div className="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab"><Dashboard/></div>
         </div>
         </div>
         </div>

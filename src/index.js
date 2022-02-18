@@ -7,7 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginBackground from './Component/Pages/LoginBackground';
 import Navbar from './Component/Profile/Navbar';
-import Register from './Component/Pages/Register';
+import RegisterBackground from './Component/Pages/RegisterBackground';
 import Application from './Component/Pages/Application';
 
 
@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="/LoginBackground" element={<LoginBackground/>} />
         <Route path="/Navbar" element={<Navbar/>} />
-        <Route path="/Register" element={<Register/>} />
+        <Route path="/RegisterBackground" element={<RegisterBackground/>} />
         <Route path="/Application" element={<Application/>} />
 
         <Route path="*" element={
