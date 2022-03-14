@@ -4,10 +4,9 @@ import Register from './Component/Pages/RegisterBackground';
 
 
 
-
 function App() {
   return <div>
-      <Main/>
+     <Main/>
       
   </div>; 
 
