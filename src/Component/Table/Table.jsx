@@ -7,9 +7,14 @@ import Request from './Request';
 function Table(){
     const [requests,setRequest]= useState([])
     
-    useEffect(async()=>{
+    const fetchRequests=async() =>{
         const response=await axios.get("https://localhost:7087/api/Requests");
-        setRequest(response.data)
+        return response.data
+    }
+
+    useEffect(async()=>{
+        
+        setRequest(await fetchRequests())
         //console.log("data",response.data)
     },[])
 
@@ -19,8 +24,8 @@ function Table(){
     return(
     
         <div> 
-            {requests.map((request,index)=>{
-                return<Request key={index} fundId={request.fundId} userId={request.userId}/>
+            {requests.map((request)=>{
+                return<Request fundId={request.fundId} userId={request.userId}/>
             })}
             
         </div>

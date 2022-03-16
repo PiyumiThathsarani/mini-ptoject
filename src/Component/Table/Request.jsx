@@ -1,10 +1,10 @@
 export default (props)=>{
     //const name=props.name
-    const {fundId,userId}=props
-    console.log("fundId,userId",fundId,userId)
+    const {FundId,UserId}=props
+    console.log("FundId,UserId",FundId,UserId)
         return(
-            <div>
-                <p>{fundId} - {userId}</p>
-            </div>
+            <>
+                <p>{FundId}-{UserId}</p>
+            </>
         )
 }
