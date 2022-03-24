@@ -7,6 +7,9 @@ import Table from '../Table/Table';
 import Dashboard from '../Pages/Dashboard';
 
 
+
+
+
 function Navbar() {
     return (
         <div className="c">

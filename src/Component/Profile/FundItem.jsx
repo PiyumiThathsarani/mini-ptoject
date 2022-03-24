@@ -1,6 +1,6 @@
 import React from 'react'
 import './profile.css';
-import CovidImage from './covid.jpg';
+
 
 function FundItem(props) {
     return (

@@ -7,8 +7,13 @@ import Request from './Request';
 function Table(){
     const [requests,setRequest]= useState([])
     
+
     const fetchRequests=async() =>{
+        console.log("a");
+        axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
+        axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
         const response=await axios.get("https://localhost:7087/api/Requests");
+        console.log(response);
         return response.data
     }
 
@@ -21,13 +26,34 @@ function Table(){
 
    console.log("requests",requests)
 
+   const fundRequestComponent=()=>{
+    return(requests.map((request)=>{
+            return(
+                <Request
+                key={request.id}
+                id={request.id}
+                fundId={request.fundId}
+                userId={request.userId}
+                approvalFlow={request.approvalFlow}
+                
+                />
+            );
+        })
+        
+    );
+};
+
+
     return(
     
-        <div> 
-            {requests.map((request)=>{
-                return<Request fundId={request.fundId} userId={request.userId}/>
-            })}
-            
+        <div>
+        
+            <h1 className="list mb-4 " style={{textAlign:'center'}}>Available FundRequests List</h1>
+            <ul>
+                {fundRequestComponent()}
+                
+            </ul>
+       
         </div>
     );
 }

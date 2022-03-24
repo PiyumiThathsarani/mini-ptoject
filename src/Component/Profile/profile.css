@@ -1,5 +1,5 @@
 .btn{
-    background-color: rgb(4, 50, 65);
+    background-color: rgb(5, 105, 138);
     color:rgb(255, 255, 255);
     width: 150px;
    
@@ -7,10 +7,10 @@
 
 .image{
     padding-top: 10px;
-    padding-left: 0px;
     padding-bottom:10px;
-    height: auto;
+    height: 100%;
     opacity: 0.75;
+    width: 200%;
     
 }
 
@@ -18,7 +18,7 @@
     
     border-style:solid;
     border-radius: 15px;
-    background-color:rgb(159, 174, 184);
+    background-color:rgb(233, 239, 243);
     border-color: rgb(19, 63, 88);
       
 }
@@ -28,7 +28,7 @@
 }
 
 .fundName{
-    text-align: center;
+    text-align:center;
     font-weight: 700;
 
 }
